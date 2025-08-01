@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Program",
+      "type": "debugpy",                // Or "python", "cppdbg", etc.
+      "request": "launch",
+      "module": "processor", // Adjust to your entry point
+    //   "cwd": "${workspaceFolder}",   // Current working directory
+      "console": "integratedTerminal",
+      "args": [
+        "--parameter_file", "/Users/PP/Desktop/Code/parameter.ini"
+      ],
+      "env": {
+        "JAVA_HOME": "/Users/PP/Desktop/Code/JAVA/jdk-21.0.7",
+        "PATH": "/Users/PP/Desktop/Code/JAVA/jdk-21.0.7/bin;${env:PATH}"
+      },
+      "python": "${workspaceFolder}/pyspark/bin/python3"
+    }
+  ]
+}
