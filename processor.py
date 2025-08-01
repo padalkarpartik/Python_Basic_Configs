@@ -16,7 +16,7 @@ if not logger.handlers:
     logger.addHandler(handler)
 
     # File Handler
-    file_handler = logging.FileHandler("processor.log", mode='w')
+    file_handler = logging.FileHandler("logs/processor.log", mode='w')
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)

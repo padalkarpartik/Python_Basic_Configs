@@ -1,6 +1,0 @@
-2025-08-01 11:12:34,475 - processor - INFO - Logger is set
-2025-08-01 11:12:34,475 - processor - INFO - Namespace(parameter_file='/Users/PP/Desktop/Code/parameter.ini')
-2025-08-01 11:12:34,475 - processor - INFO - /Users/PP/Desktop/Code/parameter.ini
-2025-08-01 11:12:34,476 - processor - INFO - Arguments: ['/Users/pratikpadalkar/Desktop/Code/Python/Python_Basic_Configs/processor.py', '--parameter_file', '/Users/PP/Desktop/Code/parameter.ini']
-2025-08-01 11:12:34,476 - processor - INFO - temp: /Users/PP/Desktop/Code/JAVA/jdk-21.0.7
-2025-08-01 11:12:34,476 - processor - INFO - Hello World
